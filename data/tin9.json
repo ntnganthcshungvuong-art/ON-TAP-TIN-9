@@ -1,1 +1,341 @@
+{
+  "mcqs": [
+    {
+      "id": "tin9_01",
+      "stem": "Ứng dụng thể hiện vai trò của máy tính trong lĩnh vực giao thông là",
+      "options": [
+        { "text": "học trực tuyến." },
+        { "text": "điều khiển đèn tín hiệu giao thông." },
+        { "text": "chỉnh sửa ảnh." },
+        { "text": "nghe nhạc." }
+      ],
+      "answer": 1,
+      "hint": "Máy tính tham gia điều khiển – tự động hoá trong giao thông (đèn tín hiệu, giám sát…)."
+    },
+    {
+      "id": "tin9_02",
+      "stem": "Máy tính có thể",
+      "options": [
+        { "text": "tự đưa ra quyết định như con người." },
+        { "text": "ghi nhớ thông tin rất nhanh." },
+        { "text": "có cảm xúc." },
+        { "text": "tự đặt mục tiêu sống." }
+      ],
+      "answer": 1,
+      "hint": "Máy tính xử lí và lưu trữ thông tin nhanh, chính xác; không có cảm xúc/mục tiêu như người."
+    },
+    {
+      "id": "tin9_03",
+      "stem": "Bước đầu tiên trong quy trình giải một bài toán tin học là",
+      "options": [
+        { "text": "xác định bài toán." },
+        { "text": "cài đặt thuật toán." },
+        { "text": "xây dựng thuật toán." },
+        { "text": "gỡ lỗi và hiệu chỉnh chương trình." }
+      ],
+      "answer": 0,
+      "hint": "Bắt đầu bằng xác định bài toán: đầu vào (Input) và đầu ra (Output)."
+    },
+    {
+      "id": "tin9_04",
+      "stem": "Quy trình đúng để giải một bài toán tin học là",
+      "options": [
+        { "text": "xác định bài toán → cài đặt thuật toán → xây dựng thuật toán → gỡ lỗi và hiệu chỉnh chương trình." },
+        { "text": "xây dựng thuật toán → xác định bài toán → cài đặt thuật toán → gỡ lỗi và hiệu chỉnh chương trình." },
+        { "text": "xác định bài toán → xây dựng thuật toán → cài đặt thuật toán → gỡ lỗi và hiệu chỉnh chương trình." },
+        { "text": "cài đặt thuật toán → xây dựng thuật toán → xác định bài toán → gỡ lỗi và hiệu chỉnh chương trình." }
+      ],
+      "answer": 2,
+      "hint": "Trình tự chuẩn: Xác định bài toán → Xây dựng thuật toán → Cài đặt → Gỡ lỗi/hiệu chỉnh."
+    },
+    {
+      "id": "tin9_05",
+      "stem": "Quy trình giải một bài toán tin học gồm",
+      "options": [
+        { "text": "1 bước." },
+        { "text": "2 bước." },
+        { "text": "3 bước." },
+        { "text": "4 bước." }
+      ],
+      "answer": 3,
+      "hint": "Có 4 bước chính: xác định → thuật toán → lập trình → kiểm thử/gỡ lỗi."
+    },
+    {
+      "id": "tin9_06",
+      "stem": "Bước cuối cùng trong quy trình giải một bài toán tin học là",
+      "options": [
+        { "text": "xác định bài toán." },
+        { "text": "cài đặt thuật toán." },
+        { "text": "xây dựng thuật toán." },
+        { "text": "gỡ lỗi và hiệu chỉnh chương trình." }
+      ],
+      "answer": 3,
+      "hint": "Sau khi có chương trình cần kiểm thử, gỡ lỗi và hiệu chỉnh để đúng yêu cầu."
+    },
+    {
+      "id": "tin9_07",
+      "stem": "Trong quy trình giải một bài toán tin học, ở bước xác định bài toán, em cần xác định",
+      "options": [
+        { "text": "ngôn ngữ lập trình." },
+        { "text": "đầu vào và đầu ra." },
+        { "text": "các câu lệnh." },
+        { "text": "tốc độ máy tính." }
+      ],
+      "answer": 1,
+      "hint": "Xác định bài toán = xác định Input (dữ liệu đã biết) và Output (kết quả cần tìm)."
+    },
+    {
+      "id": "tin9_08",
+      "stem": "Đầu vào của bài toán là",
+      "options": [
+        { "text": "dữ liệu cần tìm." },
+        { "text": "chương trình." },
+        { "text": "dữ liệu đã biết." },
+        { "text": "thuật toán." }
+      ],
+      "answer": 2,
+      "hint": "Đầu vào (Input) là những dữ liệu ban đầu đã có/được nhập vào."
+    },
+    {
+      "id": "tin9_09",
+      "stem": "Trong quy trình giải bài toán tin học, bước có thể giúp phát hiện lỗi trong chương trình là",
+      "options": [
+        { "text": "xác định bài toán." },
+        { "text": "gỡ lỗi và hiệu chỉnh chương trình." },
+        { "text": "cài đặt thuật toán." },
+        { "text": "xây dựng thuật toán." }
+      ],
+      "answer": 1,
+      "hint": "Kiểm thử và gỡ lỗi giúp phát hiện sai sót về cú pháp/logic và sửa cho đúng."
+    },
+    {
+      "id": "tin9_10",
+      "stem": "Đầu ra của bài toán là",
+      "options": [
+        { "text": "dữ liệu cần tìm." },
+        { "text": "chương trình." },
+        { "text": "thuật toán." },
+        { "text": "dữ liệu đã biết." }
+      ],
+      "answer": 0,
+      "hint": "Đầu ra (Output) là kết quả cần nhận được sau khi xử lí."
+    },
+    {
+      "id": "tin9_11",
+      "stem": "Trong bài toán tính lương, đầu ra là",
+      "options": [
+        { "text": "số giờ làm." },
+        { "text": "mức lương." },
+        { "text": "tiền lương của nhân viên." },
+        { "text": "họ tên nhân viên." }
+      ],
+      "answer": 2,
+      "hint": "Bài toán tính lương: Output là số tiền lương (kết quả tính)."
+    },
+    {
+      "id": "tin9_12",
+      "stem": "Cài đặt thuật toán là",
+      "options": [
+        { "text": "chia bài toán thành các bước." },
+        { "text": "kiểm tra kết quả." },
+        { "text": "chuyển thuật toán thành chương trình." },
+        { "text": "nhập dữ liệu." }
+      ],
+      "answer": 2,
+      "hint": "Cài đặt thuật toán = viết chương trình bằng ngôn ngữ lập trình theo thuật toán."
+    },
+    {
+      "id": "tin9_13",
+      "stem": "Trong bài toán tính lương, dữ liệu đầu vào là",
+      "options": [
+        { "text": "tiền lương." },
+        { "text": "mức lương và số giờ làm việc." },
+        { "text": "tên nhân viên." },
+        { "text": "tháng làm việc." }
+      ],
+      "answer": 1,
+      "hint": "Input là các dữ liệu cần để tính: mức lương/đơn giá và số giờ làm."
+    },
+    {
+      "id": "tin9_14",
+      "stem": "Bước nào trong quy trình giải bài toán tin học tương ứng với bước thực hiện giải pháp trong giải quyết vấn đề?",
+      "options": [
+        { "text": "Xác định bài toán." },
+        { "text": "Xây dựng thuật toán." },
+        { "text": "Cài đặt thuật toán." },
+        { "text": "Gỡ lỗi và hiệu chỉnh chương trình." }
+      ],
+      "answer": 2,
+      "hint": "‘Thực hiện giải pháp’ tương ứng ‘cài đặt’ (triển khai thành chương trình để chạy)."
+    },
+    {
+      "id": "tin9_15",
+      "stem": "Sau khi xây dựng thuật toán, bước tiếp theo trong quy trình giải quyết bài toán tin học là",
+      "options": [
+        { "text": "xây dựng thuật toán." },
+        { "text": "cài đặt thuật toán." },
+        { "text": "gỡ lỗi và hiệu chỉnh chương trình." },
+        { "text": "viết tài liệu hướng dẫn sử dụng." }
+      ],
+      "answer": 1,
+      "hint": "Có thuật toán rồi thì chuyển sang viết chương trình (cài đặt)."
+    },
+    {
+      "id": "tin9_16",
+      "stem": "Bước nào sau đây thuộc bước cài đặt thuật toán?",
+      "options": [
+        { "text": "Xác định đầu ra." },
+        { "text": "Viết chương trình bằng ngôn ngữ lập trình." },
+        { "text": "Vẽ sơ đồ khối." },
+        { "text": "Xác định bài toán." }
+      ],
+      "answer": 1,
+      "hint": "Cài đặt = lập trình: viết code để máy tính thực hiện."
+    },
+    {
+      "id": "tin9_17",
+      "stem": "Trong quá trình giải quyết vấn đề, xác định những yếu tố đã cho và kết quả cần đạt là nội dung của bước",
+      "options": [
+        { "text": "lựa chọn giải pháp." },
+        { "text": "phân tích vấn đề." },
+        { "text": "đánh giá kết quả." },
+        { "text": "tìm hiểu vấn đề." }
+      ],
+      "answer": 1,
+      "hint": "Phân tích vấn đề: xác định cái đã biết (đã cho) và mục tiêu cần đạt."
+    },
+    {
+      "id": "tin9_18",
+      "stem": "Sắp xếp các bước giải quyết vấn đề sau theo đúng thứ tự: (1) Thực hiện giải pháp; (2) Tìm hiểu vấn đề; (3) Lựa chọn giải pháp; (4) Đánh giá kết quả; (5) Phân tích vấn đề.",
+      "options": [
+        { "text": "(2) → (5) → (3) → (1) → (4)" },
+        { "text": "(2) → (3) → (5) → (1) → (4)" },
+        { "text": "(5) → (2) → (3) → (1) → (4)" },
+        { "text": "(2) → (5) → (1) → (3) → (4)" }
+      ],
+      "answer": 0,
+      "hint": "Thứ tự chuẩn: Tìm hiểu → Phân tích → Lựa chọn giải pháp → Thực hiện → Đánh giá."
+    },
+    {
+      "id": "tin9_19",
+      "stem": "Trong quá trình giải quyết vấn đề, thực hiện giải pháp là",
+      "options": [
+        { "text": "phân chia vấn đề thành những vấn đề nhỏ hơn, dễ giải quyết hơn." },
+        { "text": "xác định những yếu tố đã cho và kết quả cần đạt." },
+        { "text": "lựa chọn cách giải quyết vấn đề và trình bày giải pháp đó một cách cụ thể, rõ ràng." },
+        { "text": "triển khai giải pháp đã chọn." }
+      ],
+      "answer": 3,
+      "hint": "Thực hiện giải pháp = làm/triển khai cách giải đã chọn thành các bước cụ thể."
+    },
+    {
+      "id": "tin9_20",
+      "stem": "Trong quá trình giải quyết vấn đề, tìm kiếm và lựa chọn cách giải quyết vấn đề là nội dung của bước",
+      "options": [
+        { "text": "lựa chọn giải pháp." },
+        { "text": "phân tích vấn đề." },
+        { "text": "đánh giá kết quả." },
+        { "text": "tìm hiểu vấn đề." }
+      ],
+      "answer": 0,
+      "hint": "Lựa chọn giải pháp: cân nhắc các cách và chọn cách phù hợp nhất."
+    },
+    {
+      "id": "tin9_21",
+      "stem": "Trong bài toán bán hàng, bước KHÔNG giao cho máy tính là",
+      "options": [
+        { "text": "nhập số lượng hàng." },
+        { "text": "tính tiền hóa đơn." },
+        { "text": "quyết định chính sách giảm giá." },
+        { "text": "in hóa đơn." }
+      ],
+      "answer": 2,
+      "hint": "Máy tính làm tính toán/ in ấn; quyết định chính sách là do con người."
+    },
+    {
+      "id": "tin9_22",
+      "stem": "Các bước tính toán trong quá trình giải quyết vấn đề thường được giao cho máy tính thực hiện vì",
+      "options": [
+        { "text": "máy tính có cảm xúc." },
+        { "text": "máy tính xử lí nhanh và chính xác." },
+        { "text": "máy tính tự đặt ra bài toán." },
+        { "text": "máy tính hiểu ngôn ngữ tự nhiên." }
+      ],
+      "answer": 1,
+      "hint": "Máy tính mạnh ở xử lí nhanh, lặp lại nhiều lần và chính xác."
+    },
+    {
+      "id": "tin9_23",
+      "stem": "Khi giải quyết bài toán \"Đếm số lượng phần tử chẵn trong một dãy số\", máy tính sẽ thực hiện",
+      "options": [
+        { "text": "duyệt qua từng phần tử trong dãy và kiểm tra phần tử có phải là số chẵn không." },
+        { "text": "tính tổng các phần tử trong dãy." },
+        { "text": "sắp xếp dãy số và đếm số phần tử chẵn." },
+        { "text": "tìm số lớn nhất trong dãy." }
+      ],
+      "answer": 0,
+      "hint": "Đếm chẵn: duyệt từng phần tử → nếu chia 2 dư 0 thì tăng biến đếm."
+    },
+    {
+      "id": "tin9_24",
+      "stem": "Trong quy trình thanh toán tiền lương, bước thường được giao cho máy tính thực hiện là",
+      "options": [
+        { "text": "lập phiếu chi lương." },
+        { "text": "lưu hồ sơ." },
+        { "text": "chấm công." },
+        { "text": "tính toán tiền lương." }
+      ],
+      "answer": 3,
+      "hint": "Máy tính phù hợp phần tính toán (lương = công thức), nhanh và ít sai sót."
+    },
+    {
+      "id": "tin9_25",
+      "stem": "Bài toán có thể được giải quyết bằng máy tính khi",
+      "options": [
+        { "text": "có thể mô tả bài toán bằng các bước thực hiện cụ thể." },
+        { "text": "cần phải sử dụng kiến thức chuyên môn để giải quyết." },
+        { "text": "bài toán cần nhiều thời gian để giải quyết thủ công." },
+        { "text": "bài toán có thể giải quyết chỉ trong một lần tính toán duy nhất." }
+      ],
+      "answer": 0,
+      "hint": "Muốn giao cho máy tính, cần mô tả được thành thuật toán (các bước rõ ràng)."
+    },
+    {
+      "id": "tin9_26",
+      "stem": "Bài toán trong tin học là",
+      "options": [
+        { "text": "một công việc bất kỳ trong đời sống." },
+        { "text": "một nhiệm vụ có thể giao cho máy tính thực hiện." },
+        { "text": "một bài kiểm tra trên máy." },
+        { "text": "một phần cứng của máy tính." }
+      ],
+      "answer": 1,
+      "hint": "Bài toán tin học: nhiệm vụ có thể mô tả rõ để máy tính thực hiện."
+    },
+    {
+      "id": "tin9_27",
+      "stem": "Ví dụ KHÔNG được xem là bài toán tin học vì khó giao cho máy tính thực hiện là",
+      "options": [
+        { "text": "đếm số lượng học sinh trong lớp." },
+        { "text": "tính điểm trung bình." },
+        { "text": "đánh giá kết quả rèn luyện của học sinh." },
+        { "text": "sắp xếp danh sách theo tên." }
+      ],
+      "answer": 2,
+      "hint": "Đánh giá rèn luyện thường phụ thuộc tiêu chí định tính, khó mô tả thành bước máy làm hoàn toàn."
+    },
+    {
+      "id": "tin9_28",
+      "stem": "Trong các phát biểu sau, phát biểu SAI là",
+      "options": [
+        { "text": "trong quy trình giải quyết vấn đề có những bước có thể chuyển giao cho máy tính thực hiện." },
+        { "text": "bài toán trong tin học là một nhiệm vụ có thể giao cho máy tính thực hiện." },
+        { "text": "máy tính chỉ tính toán được với những giá trị số." },
+        { "text": "bài toán tính lương còn được gọi là bài toán tin học." }
+      ],
+      "answer": 2,
+      "hint": "Máy tính xử lí được nhiều loại dữ liệu (số, văn bản, hình ảnh…), không chỉ số."
+    }
+  ]
+}
 
