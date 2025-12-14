@@ -185,5 +185,40 @@ function grade(){
     const title = $('.q-title',card);
     const base = title.getAttribute('data-base-html') || title.innerHTML;
 
-    const picked = card.querySelector(`input[name="q${i}"]:chec
+    const picked = card.querySelector(`input[name="q${i}"]:checked`);
+    const pickedIndex = picked ? Number(picked.value) : null;
+    const ans = Number(q.answer);
 
+    if(pickedIndex===null){
+      title.innerHTML = `${base} <span class="warnTxt">⚠ Chưa chọn</span>`;
+    }else if(pickedIndex===ans){
+      correct++;
+      title.innerHTML = `${base} <span class="good">✔ Đúng</span>`;
+    }else{
+      title.innerHTML = `${base} <span class="bad">✘ Sai</span>`;
+    }
+
+    const correctLetter = String.fromCharCode(65+ans);
+    const pickedLetter = pickedIndex===null ? '—' : String.fromCharCode(65+pickedIndex);
+    $('.result',card).innerHTML = `Đáp án đúng: <b>${correctLetter}</b> • Bạn chọn: <b>${pickedLetter}</b>`;
+  });
+
+  setScore(correct,total);
+  setStatus(`Đã chấm: ${correct}/${total}`);
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+window.addEventListener('DOMContentLoaded', ()=>{
+  $('#btnRetryNoShuffle').addEventListener('click', ()=> render(ORIGINAL_DATA,false));
+  $('#btnRetryShuffle').addEventListener('click', ()=> render(ORIGINAL_DATA,true));
+  $('#btnGrade').addEventListener('click', grade);
+  $('#btnClearMarks').addEventListener('click', ()=>{
+    clearMarks();
+    setScore(0, CURRENT_DATA?.mcqs?.length ?? 0);
+    setStatus('Đã xóa nhãn.');
+  });
+  loadData();
+});
+</script>
+</body>
+</html>
