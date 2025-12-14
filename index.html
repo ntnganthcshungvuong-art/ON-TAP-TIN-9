@@ -5,33 +5,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ôn tập Cuối HKI – Tin học 9</title>
   <style>
-    :root{
-      --bg:#f6f9fc; --card:#fff; --ink:#0f172a; --muted:#475569;
-      --sky:#0ea5e9; --sky-100:#e0f2fe; --green:#10b981; --red:#ef4444; --amber:#f59e0b;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);font:16px/1.6 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;}
-    .container{max-width:980px;margin:32px auto;padding:0 16px}
-    h1{margin:8px 0 6px;color:var(--ink);font-weight:800}
-    .sub{color:var(--muted);margin-bottom:12px}
-    .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 18px;align-items:center}
-    .btn{border:0;border-radius:10px;padding:10px 14px;background:var(--sky-100);color:#0c4a6e;cursor:pointer}
-    .btn:hover{filter:brightness(0.98)}
-    .btn.primary{background:var(--sky);color:#fff}
-    .btn.warn{background:#fff7ed;color:#9a3412;border:1px solid #fed7aa}
-    .card{background:var(--card);border-radius:14px;padding:18px;margin:14px 0;box-shadow:0 2px 10px rgba(2,8,23,.06)}
-    .q-title{font-weight:700;margin-bottom:10px}
-    .opt{display:flex;gap:8px;align-items:flex-start;margin:6px 0;padding:8px;border-radius:10px;transition:.15s}
-    .opt:hover{background:#f1f5f9}
-    .muted{color:var(--muted)}
-    .pill{display:inline-flex;align-items:center;gap:6px;font-size:13px;border-radius:999px;padding:4px 10px;background:#eef2ff;color:#3730a3}
-    .score{font-weight:800}
-    .good{color:var(--green)} .bad{color:var(--red)} .warnTxt{color:var(--amber)}
-    .error{background:#fee2e2;border:1px solid #fecaca;color:#7f1d1d;padding:12px;border-radius:12px}
-    .tiny{font-size:13px}
-    .hint{display:none;margin-top:10px;padding:10px;border-radius:12px;background:#f8fafc;border:1px dashed #cbd5e1}
-    .hint.show{display:block}
-  </style>
+  :root{
+    --bg1:#eef6ff;          /* xanh rất nhạt */
+    --bg2:#f7fbff;          /* trắng xanh */
+    --card:rgba(255,255,255,.92);
+    --ink:#0f172a;
+    --muted:#475569;
+    --sky:#0ea5e9;
+    --sky-100:#e0f2fe;
+    --green:#10b981;
+    --red:#ef4444;
+    --amber:#f59e0b;
+    --border:#dbeafe;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    color:var(--ink);
+    font:16px/1.6 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+    background:
+      radial-gradient(1200px 600px at 20% 0%, #dbeafe 0%, rgba(219,234,254,0) 60%),
+      radial-gradient(900px 500px at 90% 10%, #e0f2fe 0%, rgba(224,242,254,0) 55%),
+      linear-gradient(180deg, var(--bg1), var(--bg2));
+  }
+  .container{max-width:980px;margin:32px auto;padding:0 16px}
+  h1{margin:8px 0 6px;font-weight:900;letter-spacing:.2px}
+  .sub{color:var(--muted);margin-bottom:12px}
+
+  .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 18px;align-items:center}
+  .btn{
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:10px 14px;
+    background:rgba(224,242,254,.75);
+    color:#0c4a6e;
+    cursor:pointer;
+    backdrop-filter: blur(6px);
+  }
+  .btn:hover{filter:brightness(0.99)}
+  .btn.primary{
+    background:linear-gradient(135deg, #0ea5e9, #38bdf8);
+    color:#fff;
+    border-color:transparent;
+  }
+  .btn.warn{background:#fff7ed;color:#9a3412;border:1px solid #fed7aa}
+
+  .card{
+    background:var(--card);
+    border:1px solid rgba(219,234,254,.9);
+    border-radius:16px;
+    padding:18px;
+    margin:14px 0;
+    box-shadow:0 10px 30px rgba(2,8,23,.08);
+    backdrop-filter: blur(8px);
+  }
+  .q-title{font-weight:800;margin-bottom:10px}
+  .q-img{max-width:100%;height:auto;display:block;margin:10px 0;border-radius:12px;border:1px solid #e2e8f0}
+
+  .opt{display:flex;gap:8px;align-items:flex-start;margin:6px 0;padding:10px;border-radius:12px;transition:.15s;border:1px solid transparent}
+  .opt:hover{background:rgba(239,246,255,.7);border-color:rgba(191,219,254,.8)}
+  .opt img{max-width:100%;height:auto;display:block;border-radius:12px;border:1px solid #e2e8f0}
+
+  .muted{color:var(--muted)}
+  .pill{display:inline-flex;align-items:center;gap:6px;font-size:13px;border-radius:999px;padding:4px 10px;background:rgba(224,231,255,.8);color:#3730a3;border:1px solid rgba(199,210,254,.9)}
+  .score{font-weight:900}
+  .good{color:var(--green)} .bad{color:var(--red)} .warnTxt{color:var(--amber)}
+
+  .error{background:#fee2e2;border:1px solid #fecaca;color:#7f1d1d;padding:12px;border-radius:12px}
+  .tiny{font-size:13px}
+
+  .hint{display:none;margin-top:10px;padding:12px;border-radius:14px;background:rgba(248,250,252,.9);border:1px dashed #cbd5e1}
+  .hint.show{display:block}
+</style>
+
 </head>
 <body>
   <div class="container">
